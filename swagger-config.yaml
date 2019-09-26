@@ -2,12 +2,13 @@ swagger: "2.0"
 info:
   version: "1.0.0"
   title: "Consumer Complaint Database API"
-  description: "The API for searching the Consumer Complaint Database"
+  description: "This API provides programmatic search access to the CFPB's database of consumer complaints.
+Search results can be returned in json or csv formats. <a href=test>TEST</a>"
   termsOfService: "https://cfpb.github.io/source-code-policy/"
   contact:
     email: "tech@consumerfinance.gov"
   license:
-    name: "CC0"
+    name: "Creative Commons CC0"
     url: "https://github.com/cfpb/ccdb5-api/blob/master/LICENSE"
 host: "www.consumerfinance.gov"
 basePath: "/data-research/consumer-complaints/search/api/v1/"
